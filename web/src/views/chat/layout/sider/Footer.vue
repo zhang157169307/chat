@@ -34,11 +34,7 @@ function handleChangelang() {
         <SvgIcon icon="ri:logout-circle-r-line" />
       </span>
     </HoverButton>
-    <HoverButton :tooltip="$t('setting.switchLanguage')" @click="handleChangelang">
-      <span class="text-xl text-[#4f555e] dark:text-white">
-        <SvgIcon icon="carbon:ibm-watson-language-translator" />
-      </span>
-    </HoverButton>
+
     <HoverButton :tooltip="$t('setting.setting')" @click="show = true">
       <span class="text-xl text-[#4f555e] dark:text-white">
         <SvgIcon icon="ri:settings-4-line" />
